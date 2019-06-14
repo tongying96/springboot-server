@@ -12,6 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/index")
     public String hello(){
-        return "hello tt";
+        return "hello tt";//测试看看
     }
 }
